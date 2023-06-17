@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.strategy.Duck</OriginalElement>
+  <nodes>
+    <node x="140.00000000000003" y="129.5">com.example.strategy.Quack</node>
+    <node x="0.0" y="129.5">com.example.strategy.Squeak</node>
+    <node x="312.33333333333337" y="0.0">com.example.strategy.QuackBehavior</node>
+    <node x="280.0" y="106.0">com.example.strategy.Duck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.strategy.Squeak" target="com.example.strategy.QuackBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="60.0" y="86.0" />
+      <point x="138.76515151515153" y="86.0" />
+      <point x="138.76515151515153" y="76.0" />
+      <point x="339.0" y="76.0" />
+      <point x="-53.333333333333314" y="28.0" />
+    </edge>
+    <edge source="com.example.strategy.Quack" target="com.example.strategy.QuackBehavior" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="200.00000000000003" y="86.0" />
+      <point x="138.76515151515153" y="86.0" />
+      <point x="138.76515151515153" y="76.0" />
+      <point x="339.0" y="76.0" />
+      <point x="-53.333333333333314" y="28.0" />
+    </edge>
+    <edge source="com.example.strategy.Duck" target="com.example.strategy.QuackBehavior" relationship="TO_ONE">
+      <point x="69.5" y="-63.5" />
+      <point x="488.5" y="86.0" />
+      <point x="445.66666666666674" y="86.0" />
+      <point x="53.33333333333337" y="28.0" />
+    </edge>
+    <edge source="com.example.strategy.Duck" target="com.example.strategy.QuackBehavior" relationship="DEPENDENCY">
+      <point x="-69.5" y="-63.5" />
+      <point x="349.5" y="86.0" />
+      <point x="392.33333333333337" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="279.0" y="116.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

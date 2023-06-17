@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.template.CaffeineBeverage</OriginalElement>
+  <nodes>
+    <node x="97.5" y="0.0">com.example.template.CaffeineBeverage</node>
+    <node x="197.0" y="222.0">com.example.template.Tea</node>
+    <node x="0.0" y="222.0">com.example.template.Coffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.template.Tea" target="com.example.template.CaffeineBeverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="285.5" y="197.0" />
+      <point x="187.0" y="197.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="com.example.template.Coffee" target="com.example.template.CaffeineBeverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="88.5" y="197.0" />
+      <point x="187.0" y="197.0" />
+      <point x="0.0" y="86.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="187.0" y="162.5" />
+  <SelectedNodes>
+    <node>com.example.template.CaffeineBeverage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

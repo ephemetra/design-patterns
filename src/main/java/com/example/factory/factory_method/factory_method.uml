@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.factory.factory_method.ConcreateFactory</OriginalElement>
+  <nodes>
+    <node x="422.0" y="153.0">com.example.factory.factory_method.ConcreateFactory</node>
+    <node x="0.0" y="153.0">com.example.factory.factory_method.ConcreateFactory2</node>
+    <node x="211.0" y="153.0">com.example.factory.factory_method.ConcreateFactory1</node>
+    <node x="211.0" y="0.0">com.example.factory.factory_method.Factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.factory.factory_method.ConcreateFactory1" target="com.example.factory.factory_method.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.example.factory.factory_method.ConcreateFactory2" target="com.example.factory.factory_method.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="95.5" y="128.0" />
+      <point x="306.5" y="128.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.example.factory.factory_method.ConcreateFactory" target="com.example.factory.factory_method.Factory" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="517.5" y="128.0" />
+      <point x="306.5" y="128.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="306.5" y="116.5" />
+  <SelectedNodes>
+    <node>com.example.factory.factory_method.ConcreateFactory2</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

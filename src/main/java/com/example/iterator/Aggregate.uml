@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.iterator.Aggregate</OriginalElement>
+  <nodes>
+    <node x="125.921875" y="0.0">com.example.iterator.Iterator</node>
+    <node x="91.5" y="333.0">com.example.iterator.ConcreateAggregate</node>
+    <node x="205.0" y="131.0">com.example.iterator.ConcreateIterator</node>
+    <node x="0.0" y="178.0">com.example.iterator.Aggregate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.iterator.ConcreateIterator" target="com.example.iterator.Iterator" relationship="REALIZATION">
+      <point x="0.0" y="-75.0" />
+      <point x="323.5" y="110.0" />
+      <point x="247.421875" y="110.0" />
+      <point x="40.5" y="39.5" />
+    </edge>
+    <edge source="com.example.iterator.ConcreateAggregate" target="com.example.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-52.0" />
+      <point x="194.5" y="110.0" />
+      <point x="142.421875" y="110.0" />
+      <point x="142.421875" y="100.0" />
+      <point x="166.421875" y="100.0" />
+      <point x="-40.5" y="39.5" />
+    </edge>
+    <edge source="com.example.iterator.ConcreateAggregate" target="com.example.iterator.Aggregate" relationship="REALIZATION">
+      <point x="-68.66666666666669" y="-52.0" />
+      <point x="125.83333333333331" y="307.0" />
+      <point x="92.0" y="307.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.iterator.Aggregate" target="com.example.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-28.0" />
+      <point x="92.0" y="110.0" />
+      <point x="142.421875" y="110.0" />
+      <point x="142.421875" y="100.0" />
+      <point x="166.421875" y="100.0" />
+      <point x="-40.5" y="39.5" />
+    </edge>
+    <edge source="com.example.iterator.ConcreateAggregate" target="com.example.iterator.ConcreateIterator" relationship="CREATE">
+      <point x="68.66666666666669" y="-52.0" />
+      <point x="263.1666666666667" y="307.0" />
+      <point x="323.5" y="307.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="221.0" y="218.5" />
+  <SelectedNodes>
+    <node>com.example.iterator.Aggregate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

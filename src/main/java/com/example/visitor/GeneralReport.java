@@ -5,16 +5,19 @@ public class GeneralReport implements Visitor {
     private int ordersNo;
     private int itemsNo;
 
+    @Override
     public void visit(Customer customer) {
         System.out.println(customer.getName());
         customersNo++;
     }
 
+    @Override
     public void visit(Order order) {
         System.out.println(order.getName());
         ordersNo++;
     }
 
+    @Override
     public void visit(Item item) {
         System.out.println(item.getName());
         itemsNo++;

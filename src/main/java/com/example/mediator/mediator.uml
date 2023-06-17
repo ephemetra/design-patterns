@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.mediator.Colleague</OriginalElement>
+  <nodes>
+    <node x="0.0" y="453.0">com.example.mediator.Sprinkler</node>
+    <node x="410.0" y="453.0">com.example.mediator.CoffeePot</node>
+    <node x="205.0" y="453.0">com.example.mediator.Calender</node>
+    <node x="615.0" y="453.0">com.example.mediator.Alarm</node>
+    <node x="307.5" y="323.0">com.example.mediator.Colleague</node>
+    <node x="108.0" y="0.0">com.example.mediator.Mediator</node>
+    <node x="0.0" y="106.0">com.example.mediator.ConcreteMediator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.mediator.Alarm" target="com.example.mediator.Colleague" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="707.5" y="428.0" />
+      <point x="400.0" y="428.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.mediator.CoffeePot" target="com.example.mediator.Colleague" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="502.5" y="428.0" />
+      <point x="400.0" y="428.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.mediator.Sprinkler" target="com.example.mediator.Colleague" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="92.5" y="428.0" />
+      <point x="400.0" y="428.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.mediator.Calender" target="com.example.mediator.Colleague" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="297.5" y="428.0" />
+      <point x="400.0" y="428.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.mediator.ConcreteMediator" target="com.example.mediator.Mediator" relationship="REALIZATION">
+      <point x="0.0" y="-86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="400.0" y="278.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

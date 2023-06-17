@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.decorator.Beverage</OriginalElement>
+  <nodes>
+    <node x="175.0" y="236.0">com.example.decorator.Milk</node>
+    <node x="60.86538461538464" y="106.0">com.example.decorator.CondimentDecorator</node>
+    <node x="287.86538461538464" y="106.0">com.example.decorator.HouseBlend</node>
+    <node x="292.25" y="0.0">com.example.decorator.Beverage</node>
+    <node x="447.86538461538464" y="106.0">com.example.decorator.DarkRoast</node>
+    <node x="0.0" y="236.0">com.example.decorator.Mocha</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.decorator.DarkRoast" target="com.example.decorator.Beverage" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="510.86538461538464" y="81.0" />
+      <point x="354.75" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.decorator.HouseBlend" target="com.example.decorator.Beverage" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="357.86538461538464" y="81.0" />
+      <point x="354.75" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.decorator.Mocha" target="com.example.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="77.5" y="211.0" />
+      <point x="164.36538461538464" y="211.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.decorator.Milk" target="com.example.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="245.0" y="211.0" />
+      <point x="164.36538461538464" y="211.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.decorator.CondimentDecorator" target="com.example.decorator.Beverage" relationship="REALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="164.36538461538464" y="81.0" />
+      <point x="354.75" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="287.0" y="158.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

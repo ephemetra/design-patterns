@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.proxy.Image</OriginalElement>
+  <nodes>
+    <node x="320.0" y="106.0">com.example.proxy.HighResolutionImage</node>
+    <node x="211.5" y="0.0">com.example.proxy.Image</node>
+    <node x="0.0" y="175.0">com.example.proxy.ImageProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.proxy.HighResolutionImage" target="com.example.proxy.Image" relationship="REALIZATION">
+      <point x="0.0" y="-121.0" />
+      <point x="425.0" y="81.0" />
+      <point x="287.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.proxy.ImageProxy" target="com.example.proxy.Image" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="150.0" y="81.0" />
+      <point x="287.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="265.0" y="174.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.factory.abstract_factory.AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="562.0">com.example.factory.abstract_factory.ProductB1</node>
+    <node x="135.0" y="0.0">com.example.factory.abstract_factory.AbstractFactory</node>
+    <node x="148.0" y="562.0">com.example.factory.abstract_factory.ProductB2</node>
+    <node x="0.0" y="381.0">com.example.factory.abstract_factory.ProductA1</node>
+    <node x="48.5" y="301.0">com.example.factory.abstract_factory.AbstractProductA</node>
+    <node x="150.0" y="381.0">com.example.factory.abstract_factory.ProductA2</node>
+    <node x="47.5" y="482.0">com.example.factory.abstract_factory.AbstractProductB</node>
+    <node x="0.0" y="153.0">com.example.factory.abstract_factory.ConcreateFactory2</node>
+    <node x="270.0" y="153.0">com.example.factory.abstract_factory.ConcreateFactory1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.factory.abstract_factory.ProductA2" target="com.example.factory.abstract_factory.AbstractProductA" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="215.0" y="356.0" />
+      <point x="140.0" y="356.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.factory.abstract_factory.ProductB2" target="com.example.factory.abstract_factory.AbstractProductB" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="212.0" y="537.0" />
+      <point x="138.0" y="537.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.factory.abstract_factory.ConcreateFactory2" target="com.example.factory.abstract_factory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="125.0" y="128.0" />
+      <point x="260.0" y="128.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.example.factory.abstract_factory.ConcreateFactory1" target="com.example.factory.abstract_factory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.5" />
+      <point x="395.0" y="128.0" />
+      <point x="260.0" y="128.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.example.factory.abstract_factory.ProductA1" target="com.example.factory.abstract_factory.AbstractProductA" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="65.0" y="356.0" />
+      <point x="140.0" y="356.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.factory.abstract_factory.ProductB1" target="com.example.factory.abstract_factory.AbstractProductB" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="64.0" y="537.0" />
+      <point x="138.0" y="537.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="260.0" y="309.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

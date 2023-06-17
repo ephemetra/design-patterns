@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.null_operate.AbstractOperation</OriginalElement>
+  <nodes>
+    <node x="72.5" y="0.0">com.example.null_operate.AbstractOperation</node>
+    <node x="177.0" y="106.0">com.example.null_operate.NullOperation</node>
+    <node x="0.0" y="106.0">com.example.null_operate.RealOperation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.null_operate.NullOperation" target="com.example.null_operate.AbstractOperation" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="254.5" y="81.0" />
+      <point x="166.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.null_operate.RealOperation" target="com.example.null_operate.AbstractOperation" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="78.5" y="81.0" />
+      <point x="166.5" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="166.0" y="81.0" />
+  <SelectedNodes>
+    <node>com.example.null_operate.NullOperation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.memento.Calculator</OriginalElement>
+  <nodes>
+    <node x="308.0" y="486.5">com.example.memento.PreviousCalculationToCareTaker</node>
+    <node x="182.5" y="591.0">com.example.memento.PreviousCalculationImp</node>
+    <node x="0.0" y="0.0">com.example.memento.Calculator</node>
+    <node x="0.0" y="198.0">com.example.memento.CalculatorImp</node>
+    <node x="0.0" y="462.0">com.example.memento.PreviousCalculationToOriginator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.memento.PreviousCalculationImp" target="com.example.memento.PreviousCalculationToOriginator" relationship="REALIZATION">
+      <point x="0.0" y="-75.0" />
+      <point x="297.5" y="566.0" />
+      <point x="144.0" y="566.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.example.memento.CalculatorImp" target="com.example.memento.Calculator" relationship="REALIZATION">
+      <point x="0.0" y="-109.5" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="com.example.memento.PreviousCalculationImp" target="com.example.memento.PreviousCalculationToCareTaker" relationship="REALIZATION">
+      <point x="0.0" y="-75.0" />
+      <point x="297.5" y="566.0" />
+      <point x="451.0" y="566.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="297.0" y="370.5" />
+  <SelectedNodes>
+    <node>com.example.memento.CalculatorImp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

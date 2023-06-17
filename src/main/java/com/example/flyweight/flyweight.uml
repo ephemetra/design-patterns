@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.flyweight.FlyweightFactory</OriginalElement>
+  <nodes>
+    <node x="41.49999999999997" y="0.0">com.example.flyweight.Flyweight</node>
+    <node x="39.0" y="108.0">com.example.flyweight.ConcreteFlyweight</node>
+    <node x="0.0" y="264.0">com.example.flyweight.FlyweightFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.flyweight.FlyweightFactory" target="com.example.flyweight.Flyweight" relationship="DEPENDENCY">
+      <point x="-92.33333333333331" y="-52.0" />
+      <point x="46.166666666666686" y="238.0" />
+      <point x="28.5" y="238.0" />
+      <point x="28.5" y="82.0" />
+      <point x="73.8333333333333" y="82.0" />
+      <point x="-64.66666666666667" y="28.0" />
+    </edge>
+    <edge source="com.example.flyweight.FlyweightFactory" target="com.example.flyweight.ConcreteFlyweight" relationship="CREATE">
+      <point x="0.0" y="-52.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.example.flyweight.FlyweightFactory" target="com.example.flyweight.Flyweight" relationship="TO_MANY">
+      <point x="92.33333333333331" y="-52.0" />
+      <point x="230.83333333333331" y="238.0" />
+      <point x="248.5" y="238.0" />
+      <point x="248.5" y="82.0" />
+      <point x="203.16666666666666" y="82.0" />
+      <point x="64.66666666666669" y="28.0" />
+    </edge>
+    <edge source="com.example.flyweight.ConcreteFlyweight" target="com.example.flyweight.Flyweight" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="2.8421709430404007E-14" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="138.5" y="184.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

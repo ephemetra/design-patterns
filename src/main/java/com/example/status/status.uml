@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.status.State</OriginalElement>
+  <nodes>
+    <node x="265.0" y="646.0">com.example.status.HasQuarterState</node>
+    <node x="803.0" y="646.0">com.example.status.NoQuarterState</node>
+    <node x="0.0" y="0.0">com.example.status.GumballMachine</node>
+    <node x="538.0" y="646.0">com.example.status.SoldOutState</node>
+    <node x="0.0" y="646.0">com.example.status.SoldState</node>
+    <node x="445.0" y="471.0">com.example.status.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.status.SoldState" target="com.example.status.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="122.5" y="621.0" />
+      <point x="526.0" y="621.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.example.status.NoQuarterState" target="com.example.status.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="927.5" y="621.0" />
+      <point x="526.0" y="621.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.example.status.HasQuarterState" target="com.example.status.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="391.5" y="621.0" />
+      <point x="526.0" y="621.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.example.status.SoldOutState" target="com.example.status.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="660.5" y="621.0" />
+      <point x="526.0" y="621.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="526.0" y="409.5" />
+  <SelectedNodes>
+    <node>com.example.status.GumballMachine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

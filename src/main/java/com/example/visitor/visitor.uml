@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.visitor.Visitor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="416.0">com.example.visitor.CustomerGroup</node>
+    <node x="212.0" y="140.5">com.example.visitor.Item</node>
+    <node x="392.0" y="117.5">com.example.visitor.Customer</node>
+    <node x="590.0" y="106.0">com.example.visitor.Order</node>
+    <node x="0.0" y="152.0">com.example.visitor.GeneralReport</node>
+    <node x="401.0" y="0.0">com.example.visitor.Element</node>
+    <node x="2.0" y="0.0">com.example.visitor.Visitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.visitor.Order" target="com.example.visitor.Element" relationship="REALIZATION">
+      <point x="0.0" y="-98.0" />
+      <point x="675.0" y="81.0" />
+      <point x="481.0" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.visitor.Item" target="com.example.visitor.Element" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="292.0" y="81.0" />
+      <point x="481.0" y="81.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.visitor.GeneralReport" target="com.example.visitor.Visitor" relationship="REALIZATION">
+      <point x="0.0" y="-109.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.example.visitor.Customer" target="com.example.visitor.Element" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="380.0" y="271.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
