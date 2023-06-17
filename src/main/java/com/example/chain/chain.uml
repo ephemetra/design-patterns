@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.chain.Handler</OriginalElement>
+  <nodes>
+    <node x="268.0" y="279.0">com.example.chain.RequestType</node>
+    <node x="238.0" y="154.0">com.example.chain.ConcreteHandler1</node>
+    <node x="0.0" y="154.0">com.example.chain.ConcreteHandler2</node>
+    <node x="0.0" y="279.0">com.example.chain.Request</node>
+    <node x="119.0" y="0.0">com.example.chain.Handler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.chain.ConcreteHandler1" target="com.example.chain.Handler" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="347.0" y="129.0" />
+      <point x="228.0" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.example.chain.ConcreteHandler2" target="com.example.chain.Handler" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="109.0" y="129.0" />
+      <point x="228.0" y="129.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="240.5" y="214.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
