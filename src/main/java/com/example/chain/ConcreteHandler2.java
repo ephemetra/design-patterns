@@ -4,6 +4,7 @@ public class ConcreteHandler2 extends Handler {
     public ConcreteHandler2(Handler successor) {
         super(successor);
     }
+
     @Override
     protected void handleRequest(Request request) {
         if (request.getType() == RequestType.TYPE2) {

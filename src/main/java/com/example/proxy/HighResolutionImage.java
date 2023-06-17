@@ -8,19 +8,19 @@ public class HighResolutionImage implements Image {
     private int height;
     private int width;
 
+    public HighResolutionImage(URL imageURL) {
+        this.imageURL = imageURL;
+        this.startTime = System.currentTimeMillis();
+        this.width = 600;
+        this.height = 600;
+    }
+
     public int getHeight() {
         return height;
     }
 
     public int getWidth() {
         return width;
-    }
-
-    public HighResolutionImage(URL imageURL) {
-        this.imageURL = imageURL;
-        this.startTime = System.currentTimeMillis();
-        this.width = 600;
-        this.height = 600;
     }
 
     public boolean isLoad() {

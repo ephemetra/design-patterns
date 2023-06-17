@@ -5,9 +5,9 @@ package com.example.command;
  */
 public class Invoker {
 
+    private final int slotNum = 7;
     private Command[] onCommands;
     private Command[] offCommands;
-    private final int slotNum = 7;
 
     public Invoker() {
         onCommands = new Command[slotNum];
