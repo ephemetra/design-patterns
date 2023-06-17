@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.composite.Component</OriginalElement>
+  <nodes>
+    <node x="217.0" y="223.0">com.example.composite.Composite</node>
+    <node x="108.5" y="0.0">com.example.composite.Component</node>
+    <node x="0.0" y="235.0">com.example.composite.Leaf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.composite.Leaf" target="com.example.composite.Component" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="98.5" y="198.0" />
+      <point x="207.0" y="198.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="com.example.composite.Composite" target="com.example.composite.Component" relationship="GENERALIZATION">
+      <point x="0.0" y="-75.0" />
+      <point x="315.5" y="198.0" />
+      <point x="207.0" y="198.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="207.0" y="186.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

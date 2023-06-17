@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.adapter.Duck</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">com.example.adapter.TurkeyAdapter</node>
+    <node x="3.1666666666666714" y="0.0">com.example.adapter.Turkey</node>
+    <node x="124.16666666666667" y="0.0">com.example.adapter.Duck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.adapter.TurkeyAdapter" target="com.example.adapter.Turkey" relationship="TO_ONE">
+      <point x="0.0" y="-28.0" />
+      <point x="80.5" y="55.0" />
+      <point x="78.91666666666667" y="55.0" />
+      <point x="25.25" y="15.0" />
+    </edge>
+    <edge source="com.example.adapter.TurkeyAdapter" target="com.example.adapter.Turkey" relationship="DEPENDENCY">
+      <point x="-53.66666666666666" y="-28.0" />
+      <point x="26.833333333333343" y="55.0" />
+      <point x="28.41666666666667" y="55.0" />
+      <point x="-25.25" y="15.0" />
+    </edge>
+    <edge source="com.example.adapter.TurkeyAdapter" target="com.example.adapter.Duck" relationship="REALIZATION">
+      <point x="53.66666666666666" y="-28.0" />
+      <point x="134.16666666666666" y="55.0" />
+      <point x="168.16666666666669" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="106.5" y="68.0" />
+  <SelectedNodes>
+    <node>com.example.adapter.Turkey</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

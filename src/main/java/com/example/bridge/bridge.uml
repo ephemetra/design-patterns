@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.bridge.TV</OriginalElement>
+  <nodes>
+    <node x="0.0" y="380.0">com.example.bridge.ConcreteRemoteControl1</node>
+    <node x="166.64583333333337" y="178.0">com.example.bridge.RemoteControl</node>
+    <node x="214.25000000000003" y="0.0">com.example.bridge.TV</node>
+    <node x="261.0" y="380.0">com.example.bridge.ConcreteRemoteControl2</node>
+    <node x="397.0" y="190.0">com.example.bridge.Sony</node>
+    <node x="573.0" y="190.0">com.example.bridge.RCA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.bridge.ConcreteRemoteControl1" target="com.example.bridge.RemoteControl" relationship="GENERALIZATION">
+      <point x="-15.0" y="-63.0" />
+      <point x="105.5" y="256.0" />
+      <point x="144.0" y="256.0" />
+      <point x="144.0" y="253.0" />
+      <point x="-82.49983333333338" y="0.0" />
+    </edge>
+    <edge source="com.example.bridge.ConcreteRemoteControl2" target="com.example.bridge.RemoteControl" relationship="GENERALIZATION">
+      <point x="0.0" y="63.0" />
+      <point x="381.5" y="523.5" />
+      <point x="-17.5" y="523.5" />
+      <point x="-17.5" y="256.0" />
+      <point x="144.0" y="256.0" />
+      <point x="144.0" y="253.0" />
+      <point x="-82.49983333333338" y="0.0" />
+    </edge>
+    <edge source="com.example.bridge.ConcreteRemoteControl2" target="com.example.bridge.TV" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.0" />
+      <point x="381.5" y="354.0" />
+      <point x="349.146" y="354.0" />
+      <point x="56.896000000000015" y="63.0" />
+    </edge>
+    <edge source="com.example.bridge.RCA" target="com.example.bridge.TV" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="651.0" y="169.0" />
+      <point x="364.146" y="169.0" />
+      <point x="71.89600000000002" y="63.0" />
+    </edge>
+    <edge source="com.example.bridge.RemoteControl" target="com.example.bridge.TV" relationship="DEPENDENCY">
+      <point x="1.66666666615356E-4" y="75.0" />
+      <point x="249.146" y="354.0" />
+      <point x="349.146" y="354.0" />
+      <point x="56.896000000000015" y="63.0" />
+    </edge>
+    <edge source="com.example.bridge.ConcreteRemoteControl1" target="com.example.bridge.TV" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.0" />
+      <point x="120.5" y="354.0" />
+      <point x="349.146" y="354.0" />
+      <point x="56.896000000000015" y="63.0" />
+    </edge>
+    <edge source="com.example.bridge.RemoteControl" target="com.example.bridge.TV" relationship="TO_ONE">
+      <point x="43.10416666666663" y="-75.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="com.example.bridge.Sony" target="com.example.bridge.TV" relationship="GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="475.0" y="169.0" />
+      <point x="364.146" y="169.0" />
+      <point x="71.89600000000002" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="355.5" y="262.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

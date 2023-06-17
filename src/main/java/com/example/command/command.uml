@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.command.Command</OriginalElement>
+  <nodes>
+    <node x="0.0" y="173.0">com.example.command.Invoker</node>
+    <node x="494.0" y="230.5">com.example.command.LightOffCommand</node>
+    <node x="118.65972222222223" y="23.5">com.example.command.Command</node>
+    <node x="281.0" y="230.5">com.example.command.LightOnCommand</node>
+    <node x="511.91898148148147" y="0.0">com.example.command.Light</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.command.LightOnCommand" target="com.example.command.Light" relationship="DEPENDENCY">
+      <point x="0.0" y="-52.0" />
+      <point x="377.5" y="143.0" />
+      <point x="504.32175925925924" y="143.0" />
+      <point x="504.32175925925924" y="123.0" />
+      <point x="537.1689814814815" y="123.0" />
+      <point x="-25.25" y="51.5" />
+    </edge>
+    <edge source="com.example.command.LightOffCommand" target="com.example.command.Light" relationship="TO_ONE">
+      <point x="64.66666666666669" y="-52.0" />
+      <point x="655.6666666666667" y="133.0" />
+      <point x="605.8402777777778" y="133.0" />
+      <point x="605.8402777777778" y="123.0" />
+      <point x="587.6689814814815" y="123.0" />
+      <point x="25.25" y="51.5" />
+    </edge>
+    <edge source="com.example.command.LightOffCommand" target="com.example.command.Command" relationship="REALIZATION">
+      <point x="-64.66666666666669" y="-52.0" />
+      <point x="526.3333333333333" y="153.0" />
+      <point x="334.08564814814815" y="153.0" />
+      <point x="334.08564814814815" y="143.0" />
+      <point x="226.15972222222229" y="143.0" />
+      <point x="43.00000000000006" y="28.0" />
+    </edge>
+    <edge source="com.example.command.LightOnCommand" target="com.example.command.Light" relationship="TO_ONE">
+      <point x="64.33333333333331" y="-52.0" />
+      <point x="441.8333333333333" y="133.0" />
+      <point x="605.8402777777778" y="133.0" />
+      <point x="605.8402777777778" y="123.0" />
+      <point x="587.6689814814815" y="123.0" />
+      <point x="25.25" y="51.5" />
+    </edge>
+    <edge source="com.example.command.LightOnCommand" target="com.example.command.Command" relationship="REALIZATION">
+      <point x="-64.33333333333331" y="-52.0" />
+      <point x="313.1666666666667" y="153.0" />
+      <point x="334.08564814814815" y="153.0" />
+      <point x="334.08564814814815" y="143.0" />
+      <point x="226.15972222222229" y="143.0" />
+      <point x="43.00000000000006" y="28.0" />
+    </edge>
+    <edge source="com.example.command.LightOffCommand" target="com.example.command.Light" relationship="DEPENDENCY">
+      <point x="-1.4210854715202004E-14" y="-52.0" />
+      <point x="591.0" y="143.0" />
+      <point x="504.32175925925924" y="143.0" />
+      <point x="504.32175925925924" y="123.0" />
+      <point x="537.1689814814815" y="123.0" />
+      <point x="-25.25" y="51.5" />
+    </edge>
+    <edge source="com.example.command.Invoker" target="com.example.command.Command" relationship="CREATE">
+      <point x="65.25" y="-109.5" />
+      <point x="195.75" y="153.0" />
+      <point x="183.15972222222223" y="153.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.example.command.Invoker" target="com.example.command.Command" relationship="TO_ONE">
+      <point x="-65.25" y="-109.5" />
+      <point x="65.25" y="153.0" />
+      <point x="140.15972222222223" y="153.0" />
+      <point x="-43.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="344.0" y="196.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
